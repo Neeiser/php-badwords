@@ -14,7 +14,7 @@
         <?php
             $word = $_GET['word'];
             $stringa= 'Lorem ipsum dolor sit amet consectetur adipisicing elit hic quam ipsa aliquam non enim doloribus perspiciatis expedita minima deserunt nam quisquam aperiam nihil eveniet modi officiis atque ipsum nostrum commodi.';
-            echo preg_replace($word, '***', $stringa);
+            echo str_replace($word, '***', $stringa);
         ?>
     </div>
 </body>
