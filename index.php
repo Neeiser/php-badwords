@@ -14,9 +14,9 @@
         <?php
             $_GET['word'];
             $stringa= 'Lorem ipsum dolor sit amet consectetur adipisicing elit hic quam ipsa aliquam non enim doloribus perspiciatis expedita minima deserunt nam quisquam aperiam nihil eveniet modi officiis atque ipsum nostrum commodi.';
-            $stringa_esplosa = explode(' ', $stringa, 0);
+            $stringa_esplosa = explode(' ', $stringa);
             $array_filtrato = str_replace($word, '***', $stringa_esplosa);
-            $array_trasformato = implode('', $array_filtrato);
+            $array_trasformato = implode(' ', $array_filtrato);
             echo $array_trasformato;
         ?>
     </div>
