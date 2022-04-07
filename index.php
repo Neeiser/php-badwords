@@ -7,14 +7,20 @@
     <title>PHP Badwords</title>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quam ipsa aliquam non enim doloribus perspiciatis expedita minima deserunt nam, quisquam, aperiam nihil eveniet modi officiis atque ipsum nostrum commodi?</p>
-    <?php
-        
-        echo 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quam ipsa aliquam non enim doloribus perspiciatis expedita minima deserunt nam, quisquam, aperiam nihil eveniet modi officiis atque ipsum nostrum commodi?'
-    ?>
+    <div>
+        <h1>Testo da censurare</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quam ipsa aliquam non enim doloribus perspiciatis expedita minima deserunt nam, quisquam, aperiam nihil eveniet modi officiis atque ipsum nostrum commodi?</p>
+        <h2>Risultato testo censurato</h2>
+        <?php
+            $_GET['word'];
+            echo 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quam ipsa aliquam non enim doloribus perspiciatis expedita minima deserunt nam, quisquam, aperiam nihil eveniet modi officiis atque ipsum nostrum commodi?'
+        ?>
+    </div>
 </body>
 </html>
 
 <style>
-
+    div{
+        text-align:center;
+    }
 </style>
